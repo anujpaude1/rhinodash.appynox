@@ -27,7 +27,7 @@ const Home = () => {
           <a href="/" className="dock-item active">
             <span>Home</span>
           </a>
-          <a href="/privacy-policy" className="dock-item">
+          <a href="/privacy" className="dock-item">
             <span>Privacy</span>
           </a>
         </div>

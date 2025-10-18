@@ -111,7 +111,7 @@ const Privacy = () => {
           <a href="/" className="dock-item">
             <span>Home</span>
           </a>
-          <a href="/privacy-policy" className="dock-item active">
+          <a href="/privacy" className="dock-item active">
             <span>Privacy</span>
           </a>
         </div>
@@ -121,7 +121,7 @@ const Privacy = () => {
         <div className="container">
           <p>&copy; 2025 Rhino Dash. All rights reserved.</p>
           <div className="footer-links">
-            <a href="/privacy-policy">Privacy Policy</a>
+            <a href="/privacy">Privacy Policy</a>
             <a href="/terms">Terms of Service</a>
           </div>
         </div>

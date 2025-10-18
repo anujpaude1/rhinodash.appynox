@@ -60,7 +60,7 @@ const Privacy = () => {
       title: 'Contact Us',
       icon: '📧',
       content: 'If you have any questions about this Privacy Policy or our data practices, please contact us:',
-      contact: 'support@rhinodash.com',
+      contact: 'support@appynox.com',
       color: '#235347'
     }
   ];

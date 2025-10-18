@@ -3,19 +3,6 @@ import './Home.css';
 const Home = () => {
   return (
     <div className="home-page">
-      <nav className="navbar">
-        <div className="nav-container">
-          <a href="/" className="logo">
-            <img src="/assets/logo.png" alt="Rhino Dash Logo" />
-            Rhino Dash
-          </a>
-          <div className="nav-links">
-            <a href="/" className="nav-link active">Home</a>
-            <a href="/privacy-policy" className="nav-link">Privacy</a>
-          </div>
-        </div>
-      </nav>
-
       <main className="hero-section">
         <div className="hero-container">
           <div className="hero-content">
@@ -23,7 +10,8 @@ const Home = () => {
               Welcome to <span className="highlight">Rhino Dash</span>
             </h1>
             <p className="hero-subtitle">
-              Charge through the wilds of Nepal in this thrilling 2D side-scrolling adventure! Race as a majestic rhino through stunning Chitwan landscapes, avoiding obstacles and collecting power-ups. Experience the heart-pounding excitement of wildlife conservation with every dash and jump!
+              Dash through the wilds of Nepal in this thrilling 2D adventure! Run as a mighty rhino across vibrant Chitwan streets, dodge obstacles, collect power-ups, and feel the rush of wildlife conservation with every leap!
+
             </p>
             <div className="hero-cta">
               <a href="#download" className="cta-button primary">
@@ -33,6 +21,17 @@ const Home = () => {
           </div>
         </div>
       </main>
+
+      <nav className="dock">
+        <div className="dock-container">
+          <a href="/" className="dock-item active">
+            <span>Home</span>
+          </a>
+          <a href="/privacy-policy" className="dock-item">
+            <span>Privacy</span>
+          </a>
+        </div>
+      </nav>
 
     </div>
   );

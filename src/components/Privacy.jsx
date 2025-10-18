@@ -67,16 +67,6 @@ const Privacy = () => {
 
   return (
     <div className="privacy-page">
-      <nav className="navbar">
-        <div className="nav-container">
-          <a href="/" className="logo">
-            <img src="/assets/logo.png" alt="Rhino Dash Logo" />
-            Rhino Dash
-          </a>
-          <a href="/" className="nav-link">Home</a>
-        </div>
-      </nav>
-
       <main className="privacy-content">
         <div className="container">
           <header className="privacy-header">
@@ -115,6 +105,17 @@ const Privacy = () => {
        
         </div>
       </main>
+
+      <nav className="dock">
+        <div className="dock-container">
+          <a href="/" className="dock-item">
+            <span>Home</span>
+          </a>
+          <a href="/privacy-policy" className="dock-item active">
+            <span>Privacy</span>
+          </a>
+        </div>
+      </nav>
 
       <footer className="footer">
         <div className="container">

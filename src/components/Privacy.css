@@ -86,17 +86,12 @@
 
 .contact-link {
   color: #F36B26;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: 500;
-  padding: 0.5rem 1rem;
-  border: 1px solid #F36B26;
-  border-radius: 5px;
-  transition: all 0.3s ease;
 }
 
 .contact-link:hover {
-  background-color: #F36B26;
-  color: white;
+  color: #eb550a;
 }
 
 /* Privacy Footer */

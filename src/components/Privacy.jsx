@@ -8,60 +8,38 @@ const Privacy = () => {
       title: 'Introduction',
       content: `Welcome to Rhino Dash! 
       This Privacy Policy describes how Appynox ("we", "our", "us") collects, uses, shares, and protects your data 
-      when you play Rhino Dash — a 2D side-scrolling wildlife adventure game set in Sauraha, Chitwan, Nepal. 
+      when you play Rhino Dash : a 2D side-scrolling wildlife adventure game set in Sauraha, Chitwan, Nepal. 
       By installing or using the app, you acknowledge that you have read and understood this Privacy Policy.`,
       color: '#F36B26'
     },
     {
       id: 'data-collection',
       title: 'Information We Collect',
-      content: 'We only collect minimal data necessary for gameplay functionality, analytics, and app improvements. Specifically, we may collect:',
-      list: [
-        'Gameplay data (levels completed, achievements, and session duration)',
-        'Crash reports and diagnostic logs for bug fixing and stability improvement',
-        'Device and technical information (device model, operating system version, language, and screen resolution)',
-        'Advertising identifiers (if ads are enabled)',
-        'No personally identifiable data (like name, email, or address) is collected unless voluntarily provided through contact or feedback forms.'
-      ],
+      content: 'We do not collect any personal data or information from users.',
       color: '#D9A441'
     },
     {
       id: 'data-usage',
       title: 'How We Use the Data',
-      content: 'We use collected data solely to enhance game performance, stability, and user experience. We use this data to:',
-      list: [
-        'Monitor gameplay trends and balance levels or difficulty',
-        'Fix technical issues and crashes',
-        'Serve relevant ads and track ad performance (if applicable)',
-        'Improve app functionality, features, and performance'
-      ],
+      content: 'Since we do not collect any data, there are no uses of data.',
       color: '#235347'
     },
     {
       id: 'data-sharing',
       title: 'Data Sharing and Transfer',
-      content: `We do not sell or rent your data to anyone. However, limited data may be shared automatically with trusted third-party service providers
-      who assist us in analytics, crash reporting, or advertising. These providers process data only on our behalf and under strict confidentiality agreements.
-      Data may be transferred to servers located outside your country, but it will always be handled with the same level of protection.`,
+      content: `Since we do not collect any data, there is no data to share or transfer.`,
       color: '#F36B26'
     },
     {
       id: 'third-party',
       title: 'Third-Party Services and SDKs',
-      content: 'Rhino Dash integrates third-party tools to enhance functionality. Each of these services has its own Privacy Policy:',
-      list: [
-        'Google Play Services – for authentication, achievements, and in-app purchases (https://policies.google.com/privacy)',
-        'Firebase Analytics – to analyze user behavior and app performance (https://firebase.google.com/support/privacy)',
-        'AdMob – for displaying ads and measuring ad performance (https://policies.google.com/technologies/ads)',
-      ],
+      content: 'Rhino Dash does not integrate third-party tools for data collection, analytics, or advertising.',
       color: '#D9A441'
     },
     {
       id: 'consent',
       title: 'User Consent and Choices',
-      content: `Before using analytics or personalized ads, Rhino Dash may ask for your consent where required. 
-      You can manage ad personalization directly from your Google account settings. 
-      By continuing to use the app, you consent to data collection as described here.`,
+      content: `Since we do not collect data or display ads, no consent is required.`,
       color: '#235347'
     },
     {
@@ -74,8 +52,7 @@ const Privacy = () => {
     {
       id: 'storage',
       title: 'Data Storage and Retention',
-      content: `Collected data is stored securely either on your device or in encrypted cloud databases (managed by our analytics providers). 
-      We retain data only as long as necessary for the purposes outlined in this policy or as required by law. Afterward, data is anonymized or permanently deleted.`,
+      content: `Since we do not collect any data, there is no data storage or retention.`,
       color: '#D9A441'
     },
     {
@@ -89,20 +66,13 @@ const Privacy = () => {
     {
       id: 'ads',
       title: 'Advertisements',
-      content: `Rhino Dash may display ads via Google AdMob. Ads may be personalized or non-personalized depending on your consent settings. 
-      You can disable personalized ads through your Google Account > Ads Settings. We ensure ads comply with family and content rating policies.`,
+      content: `Rhino Dash does not display any ads.`,
       color: '#F36B26'
     },
     {
       id: 'user-rights',
       title: 'Your Rights and Control',
-      content: 'Depending on your region, you may have the following rights:',
-      list: [
-        'Access or request deletion of data we hold (where applicable)',
-        'Withdraw consent for analytics or personalized ads',
-        'Request correction of inaccurate information (if any personal data exists)',
-        'Uninstall the app to revoke all local data collection'
-      ],
+      content: 'Since we do not collect any data, there are no data-related rights or controls.',
       color: '#D9A441'
     },
     {
@@ -116,7 +86,7 @@ const Privacy = () => {
       id: 'contact',
       title: 'Contact Us',
       content: 'If you have questions, concerns, or data-related requests, please contact us:',
-      contact: 'support@appynox.com',
+      contact: 'business@appynox.com',
       color: '#F36B26'
     }
   ];
